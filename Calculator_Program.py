@@ -20,7 +20,7 @@ elif operator =="%" :
     else :
       print("You cannot perform modulo by zero")
 else:
-  print("your choice isnot found ")
+  print(" invalid operator ! ")
 print ("the result =  ", result)
 
 
