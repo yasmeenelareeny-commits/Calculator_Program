@@ -2,7 +2,7 @@ print("Welcome To Our Calculator Program")
 num_1 = float(input("enter the first number :"))
 num_2 = float(input("enter the second number :"))
 operator = input(" choose the operator what you want from ( + , - ,* ,/ , % ) :").strip()
-result = 0
+result = None
 if operator == "+" :
   result = num_1 + num_2
 elif operator =="-" :
